@@ -1,0 +1,5 @@
+Q-learning is a model-free reinforcement learning algorithm. The goal of Q-learning is to learn a policy, which tells an agent what action to take under what circumstances. It does not require a model (hence the connotation "model-free") of the environment, and it can handle problems with stochastic transitions and rewards, without requiring adaptations.
+
+For any finite Markov decision process (FMDP), Q-learning finds a policy that is optimal in the sense that it maximizes the expected value of the total reward over any and all successive steps, starting from the current state.[1] Q-learning can identify an optimal action-selection policy for any given FMDP, given infinite exploration time and a partly-random policy. Q names the function that returns the reward used to provide the reinforcement and can be said to stand for the quality of an action taken in a given state.
+
+This repository contains a python implimentation of Q-Learning algorithm in python to train a model on Frozen Lake Scenario , where the robot has to reach the destination from start in an n*n grid . The n*n grid also contains obstacles and reward .
